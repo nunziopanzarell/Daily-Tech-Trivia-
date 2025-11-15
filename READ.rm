@@ -1,0 +1,17 @@
+Culture Nuggets Discord Bot
+
+A simple Discord bot that shares one daily tech trivia about computer science. Built with Python and discord.py, it picks a random nugget from a JSON file and posts it to your Discord server.
+
+⚙️ Setup
+
+pip install discord.py
+
+Add your Discord bot token in data.json
+
+Run: python commands.py
+
+📁 Files
+
+commands.py – main bot logic
+
+data.json – trivia database
