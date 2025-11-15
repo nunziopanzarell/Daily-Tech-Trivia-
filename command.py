@@ -76,6 +76,6 @@ async def nugget(ctx):
     await ctx.send(f"💡 **Did you know?**\n {question}\n **Answer:** {answer}")
 
 
-bot.run(TOKEN)
+bot.run("MTQzODkyMzc1NzAyMzM5NTk0MA.GXJ_yc.GQUPdK_AOn7-CmBn_SZfEQO-oGgAeEQ0Waj4D8")
 
 
