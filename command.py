@@ -4,8 +4,11 @@ from discord.ext import commands
 import random
 import json
 from typing import Any
+from dotenv import load_dotenv
 
-TOKEN = "MTQzODkyMzc1NzAyMzM5NTk0MA.GXJ_yc.GQUPdK_AOn7-CmBn_SZfEQO-oGgAeEQ0Waj4D8"
+load_dotenv()
+
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -76,4 +79,4 @@ async def nugget(ctx):
     await ctx.send(f" **Did you know?**\n {question}\n **Answer:** {answer}")
 
 
-bot.run("MTQzODkyMzc1NzAyMzM5NTk0MA.GXJ_yc.GQUPdK_AOn7-CmBn_SZfEQO-oGgAeEQ0Waj4D8")
+bot.run(TOKEN)
