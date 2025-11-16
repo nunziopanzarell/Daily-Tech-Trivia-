@@ -73,9 +73,7 @@ async def nugget(ctx):
     question = pick_random["Q"]
     answer = pick_random["A"]
 
-    await ctx.send(f"💡 **Did you know?**\n {question}\n **Answer:** {answer}")
+    await ctx.send(f" **Did you know?**\n {question}\n **Answer:** {answer}")
 
 
 bot.run("MTQzODkyMzc1NzAyMzM5NTk0MA.GXJ_yc.GQUPdK_AOn7-CmBn_SZfEQO-oGgAeEQ0Waj4D8")
-
-
